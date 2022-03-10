@@ -1,11 +1,16 @@
 ﻿using System;
-namespace Fantasticvendingmachine
-{
+namespace Fantasticvendingmachine;
+
 	public class User
 	{
-		public User()
+		public string Name { get; set; }
+		public int Money { get; set; }
+
+		public User (string name, int money)
 		{
+			Name = name;
+			Money = money;
 		}
 	}
-}
+
 
