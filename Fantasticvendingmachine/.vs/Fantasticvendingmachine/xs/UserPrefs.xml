@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{B285584D-CE88-43AF-A02C-F13225C007D7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Fantasticvendingmachine FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Item.cs">
+    <Files>
+      <File FileName="Program.cs" Line="3" Column="23" />
+      <File FileName="User.cs" Line="1" Column="1" />
+      <File FileName="Bank.cs" Line="2" Column="34" />
+      <File FileName="VendingMachine.cs" Line="22" Column="1" />
+      <File FileName="Inventory.cs" Line="1" Column="1" />
+      <File FileName="Item.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fantasticvendingmachine" expanded="True">
+            <Node name="Fantasticvendingmachine" expanded="True">
+              <Node name="User.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Fantasticvendingmachine FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
