@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{B285584D-CE88-43AF-A02C-F13225C007D7}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Item.cs" Line="15" Column="1" />
+      <File FileName="Program.cs" Line="36" Column="43" />
+      <File FileName="Item.cs" Line="16" Column="1" />
       <File FileName="Bank.cs" Line="1" Column="1" />
-      <File FileName="VendingMachine.cs" Line="1" Column="1" />
-      <File FileName="Inventory.cs" Line="1" Column="1" />
+      <File FileName="VendingMachine.cs" Line="28" Column="42" />
+      <File FileName="Inventory.cs" Line="11" Column="3" />
+      <File FileName="User.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fantasticvendingmachine" expanded="True">
-            <Node name="Fantasticvendingmachine" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Fantasticvendingmachine" expanded="True" />
           </Node>
         </State>
       </Pad>
