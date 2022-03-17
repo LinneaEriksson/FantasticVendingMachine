@@ -11,6 +11,7 @@ namespace Fantasticvendingmachine;
 			Name = name;
 			Money = money;
 		}
+
 	}
 
 
