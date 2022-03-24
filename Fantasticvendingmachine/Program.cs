@@ -16,6 +16,8 @@ var machine = new VendingMachine();
         Console.WriteLine(item.Name + ": " + item.Price + ":-");
 
     }
+
+
 while (user.Money > 0)
 {
     Console.WriteLine("What would you like to buy?");
@@ -34,6 +36,44 @@ while (user.Money > 0)
     else
     {
         machine.SellItemTo(user, product);
+ 
+
+       
+    }
+
+    while (true) {
+        Console.WriteLine("Would you like to buy something else?");
+        Console.WriteLine();
+
+        var answer = Console.ReadLine();
+        if (answer == "yes") {
+            break;
+        }
+   
+        if (answer == "no")
+        {
+            Console.WriteLine();
+            Console.WriteLine("This is what you have bought, thank you for your purchase!");
+            Console.WriteLine();
+            foreach (var item in user.userItems)
+            {
+                Console.Write(item.Name);
+                Console.WriteLine("");
+            }
+            return;
+        }
+        else {
+            Console.WriteLine();
+            Console.WriteLine("Please type yes or no!");
+            Console.WriteLine();
+        }
     }
 } 
     Console.WriteLine("You are out of money!");
+Console.WriteLine("This is what you have bought, thank you for your purchase!");
+Console.WriteLine();
+foreach (var item in user.userItems)
+{
+    Console.Write(item.Name);
+    Console.WriteLine("");
+}

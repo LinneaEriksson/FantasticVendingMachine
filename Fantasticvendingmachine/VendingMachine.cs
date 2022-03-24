@@ -26,8 +26,8 @@ namespace Fantasticvendingmachine
 			}
 			else {
 				user.Money = user.Money - item.Price;
-				Console.WriteLine($"Way, here is your {item.Name}, you have {user.Money}:- left!");
-
+				Console.WriteLine($"Yay, here is your {item.Name}, you have {user.Money}:- left!");
+				user.userItems.Add(item);
 
 			}
 		}
