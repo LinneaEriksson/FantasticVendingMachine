@@ -13,7 +13,7 @@ This is our fantastic vending machine! The project is built in C# and was a scho
 
 # Contributors
 
-Nelly Svarvare Petrén[https://github.com/NellySP],
-Johanna Jönsson[https://github.com/JonssonJohanna],
-Amanda Karlsson[https://github.com/amandaprintz],
+[Nelly Svarvare Petrén](https://github.com/NellySP),
+[Johanna Jönsson](https://github.com/JonssonJohanna),
+[Amanda Karlsson](https://github.com/amandaprintz),
 [Linnéa Eriksson](https://github.com/LinneaEriksson)
